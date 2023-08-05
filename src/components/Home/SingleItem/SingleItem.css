@@ -1,0 +1,114 @@
+/* -------Product container------- */
+
+.product .product-card {
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.2);
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+}
+
+.product .product-card .add-to-card-btn {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    position: absolute;
+    right: 50%;
+    bottom: 3%;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: poppins;
+    transform: translate(50%);
+}
+
+.product .product-card::before {
+    content: '';
+    background: #F2F2F2;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.product .product-card:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 0.8s;
+    transform: scale(1.03);
+}
+
+.product .product-card .product-img {
+    z-index: 1;
+    position: absolute;
+    max-width: 250px;
+    max-height: 250px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 10px;
+}
+
+.product .product-card .name {
+    z-index: 2;
+    color: black;
+    position: absolute;
+    width: 100%;
+    left: 5%;
+    bottom: 23%;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.product .product-card .description {
+    z-index: 2;
+    color: black;
+    position: absolute;
+    width: 100%;
+    left: 5%;
+    bottom: 22%;
+    font-family: Poppins;
+    font-size: 1.1rem;
+}
+
+.product .product-card .price {
+    z-index: 2;
+    color: black;
+    position: absolute;
+    width: 100%;
+    left: 5%;
+    bottom: 15%;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.product .product-card .color {
+    z-index: 2;
+    color: black;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    /* width: 100%; */
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.product .product-card .rating {
+    z-index: 2;
+    color: black;
+    position: absolute;
+    left: 50%;
+    bottom: 16%;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    /* transform: translate(-50%); */
+    font-weight: 300;
+}
+

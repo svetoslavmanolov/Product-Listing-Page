@@ -1,0 +1,63 @@
+
+/* -------Congratulations container------- */
+
+.modal-order-div-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10%);
+}
+
+.main-div {
+    display: flex;
+    width: 30rem;
+    height: auto;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    background: rgb(231, 231, 231);
+    border-radius: 15px;
+    border: 1px solid rgb(168, 168, 168);
+    z-index: 2;
+}
+
+.main-text {
+    margin: 7% 0;
+    text-align: center;
+}
+
+.main-text .text-1 {
+    margin: 0 1rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #797979;
+}
+
+.main-text .text-2 {
+    margin: 1rem 1rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.successful-order-button {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    padding: 0.5rem 1.5rem;
+    border: 0;
+    cursor: pointer;
+    font-family: poppins;
+    font-weight: 700;
+}
